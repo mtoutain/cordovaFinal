@@ -1,0 +1,142 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+html{
+    background: #800080;
+}
+.template{
+  display: none;
+}
+#house svg{
+  width: 80px;
+  height: auto;
+}
+#house svg #Gryffindor, #Hufflepuff, #Slytherin, #Ravenclaw{
+  display: none;
+}
+#house.Gryffindor #Gryffindor {
+  display: block;
+}
+#house.Hufflepuff #Hufflepuff {
+  display: block;
+}
+#house.Ravenclaw #Ravenclaw {
+  display: block;
+}
+#house.Slytherin #Slytherin {
+  display: block;
+}
+
+[data-role="page"]{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  padding-top: 4rem;
+  padding-bottom:6rem;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+    overflow: auto;
+}
+[data-role="page"].active{
+  display:block;
+  z-index: 20;
+  padding-bottom:6rem;
+  color: white;
+}
+h1{
+    width:100%;
+    text-align: center;
+  font-size: 4rem;
+}
+table{
+    margin:0 auto;
+    text-align: center;
+    
+}
+
+nav{
+  position:fixed;
+  bottom:0;
+  width: 100%;
+  height: 6rem;
+  background-color: #1122aa;
+  z-index: 30;
+}
+nav a{
+  margin:0 auto;
+  font-size: 2.5rem;
+  color: white;
+  padding: 1rem;
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  text-decoration: none;
+}
+
+button{
+  position:fixed;
+  top:0;
+  width: 100%;
+  font-size:2rem;
+  color:#fff;
+  height: 4rem;
+  background-color: #1122aa;
+  z-index: 300; 
+}
+button img{
+    height:auto;
+    width:4vh;
+   
+}
+
+.results-list th{
+    font-size:1.5rem;
+}
+
+.results-list td{
+    font-size:2rem;
+    text-align: center;
+    line-height:2;
+}
+
+.standings th{
+    font-size:1.5rem;
+}
+
+.standings td{
+    font-size:2rem;
+    text-align: center;
+    line-height:2;
+}
+
+.st0{display:inline;}
+	.st1{display:inline;fill:#861818;}
+	.st2{display:inline;fill:#871B1D;}
+	.st3{display:inline;fill:#E9DBB9;}
+	.st4{display:inline;}
+	.st5{display:inline;fill:#DA9028;}
+	.st6{display:inline;fill:#AA782D;}
+	.st7{display:inline;fill:#242E60;}
+	.st8{display:inline;fill:#C8C8C6;}
+	.st9{display:inline;fill:#464235;}
+	.st10{display:inline;fill:#212A5C;}
+	.st11{display:inline;fill:#496D4B;}
+	.st12{display:inline;fill:#1A1A1A;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+	.st13{fill:#AA782D;}
+	.st14{display:inline;fill:#DDAF29;}
+	.st15{display:inline;fill:#0A0D0D;}
+	.st16{display:inline;fill:#040302;}
+	.st17{fill:#464235;}
+	.st18{fill:#E9DBB9;}
+	.st19{display:inline;fill:#C7B299;stroke:#000000;stroke-width:0.25;stroke-miterlimit:10;}
+	.st20{display:inline;fill:#C7B299;}
+	.st21{display:inline;fill:#1F542A;}
+	.st22{display:inline;fill:#21562D;}
+	.st23{fill:#C8C8C6;}
+	.st24{fill:#21562D;}
+	.st25{fill:#1F542A;}
+	.st26{fill:#496D4B;}

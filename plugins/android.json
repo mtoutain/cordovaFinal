@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-battery-status": {
+            "PACKAGE_NAME": "ca.edumedia.tout0004.Quidditch"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "ca.edumedia.tout0004.Quidditch"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "ca.edumedia.tout0004.Quidditch"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "ca.edumedia.tout0004.Quidditch"
+        }
+    },
+    "dependent_plugins": {}
+}
